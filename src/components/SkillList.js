@@ -3,7 +3,7 @@ import React from 'react'
 const SkillList = ({skills,deleteSkill}) => {
   return (
     <div>
-    <ul>
+    <ul id='skill-list'>
       {skills.map((skill, index) => (
         <li
           key={index}
